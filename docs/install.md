@@ -27,8 +27,8 @@ running Ubuntu.
 Installation under Ubuntu is easiest, after downloading the code,
 running the following commands should suffice to build MDI++:
 
-    $ sudo apt-get install build-essentials libboost-all-dev libeigen3-dev
-	$ sudo apt-get install nvidia-cuda-toolkit  # only needed if GPU support wanted
+    $ sudo apt-get install build-essential libboost-all-dev libeigen3-dev
+    $ sudo apt-get install nvidia-cuda-toolkit  # only needed if GPU support is wanted
 
 and all should be OK.  If you want to use GPU acceleration, you will
 need the CUDA toolkit to be installed (I'm currently using 6.5).
